@@ -1,0 +1,15 @@
+[project]
+name = "hotel-concierge-mcp"
+version = "1.0.0"
+description = "MCP server for hotel concierge services"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
