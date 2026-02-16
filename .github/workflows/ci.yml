@@ -24,4 +24,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Verify import
-        run: python -c "from src.hotel_concierge.server import mcp; print(f'Server: {mcp.name}')"
+        run: python -c "from src.hotel_concierge.server import mcp; print('Server loaded')"
