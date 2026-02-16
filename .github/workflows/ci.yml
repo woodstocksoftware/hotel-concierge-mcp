@@ -23,5 +23,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Verify import
-        run: python -c "from src.hotel_concierge.server import mcp; print('Server loaded')"
+      - name: Run tests
+        run: pytest tests/ -v --tb=short
