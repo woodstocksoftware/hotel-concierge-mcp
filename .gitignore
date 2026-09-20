@@ -4,3 +4,14 @@ __pycache__/
 .env
 .DS_Store
 data/
+
+# Build/test artifacts
+report/
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.firecrawl/
+*.tsbuildinfo
+.claude/settings.local.json
+.claude/worktrees/
