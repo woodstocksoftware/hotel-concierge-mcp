@@ -1,7 +1,7 @@
 # CLAUDE.md — Hotel Concierge MCP Server
 
 > **Purpose:** MCP server enabling Claude to manage hotel operations (reservations, services, info)
-> **Owner:** Jim Williams - Woodstock Software LLC
+> **Owner:** Jim Williams - Desert's Edge Solutions LLC
 > **Repo:** woodstocksoftware/hotel-concierge-mcp (public)
 
 ---
