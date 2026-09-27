@@ -2,6 +2,7 @@
 
 An MCP (Model Context Protocol) server that enables Claude to act as a hotel concierge—checking availability, making reservations, and handling guest services.
 
+[![CI](https://github.com/woodstocksoftware/hotel-concierge-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/woodstocksoftware/hotel-concierge-mcp/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![MCP](https://img.shields.io/badge/MCP-1.26-green)
 ![Claude](https://img.shields.io/badge/Claude-Desktop-blueviolet)
@@ -133,6 +134,14 @@ The database module (`database.py`) uses SQLite with mock data. To connect to a 
 ### Training
 - Staff training simulator
 - Process documentation
+
+## Testing
+
+105 automated tests (pytest) cover the database layer, server tools, resources, and end-to-end flows.
+
+```bash
+pytest
+```
 
 ## License
 
